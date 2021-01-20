@@ -252,6 +252,16 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PokerTrainingWebsite.BL\PokerTrainingWebsite.BL.csproj">
+      <Project>{51d38ece-ba2e-4866-9ea6-66e983cd3fb3}</Project>
+      <Name>PokerTrainingWebsite.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PokerTrainingWebsite.DAL\PokerTrainingWebsite.DAL.csproj">
+      <Project>{df8c77cf-97cb-49dd-8927-3fd8f93c5766}</Project>
+      <Name>PokerTrainingWebsite.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerTrainingWebsite", "PokerTrainingWebsite\PokerTrainingWebsite.csproj", "{2CFFD950-EB10-4507-B749-A98193654366}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerTrainingWebsite.BL", "PokerTrainingWebsite.BL\PokerTrainingWebsite.BL.csproj", "{51D38ECE-BA2E-4866-9EA6-66E983CD3FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerTrainingWebsite.DAL", "PokerTrainingWebsite.DAL\PokerTrainingWebsite.DAL.csproj", "{DF8C77CF-97CB-49DD-8927-3FD8F93C5766}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2CFFD950-EB10-4507-B749-A98193654366}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CFFD950-EB10-4507-B749-A98193654366}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CFFD950-EB10-4507-B749-A98193654366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D38ECE-BA2E-4866-9EA6-66E983CD3FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D38ECE-BA2E-4866-9EA6-66E983CD3FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D38ECE-BA2E-4866-9EA6-66E983CD3FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D38ECE-BA2E-4866-9EA6-66E983CD3FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF8C77CF-97CB-49DD-8927-3FD8F93C5766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8C77CF-97CB-49DD-8927-3FD8F93C5766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8C77CF-97CB-49DD-8927-3FD8F93C5766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8C77CF-97CB-49DD-8927-3FD8F93C5766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
